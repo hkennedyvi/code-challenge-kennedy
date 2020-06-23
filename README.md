@@ -1,1 +1,5 @@
-# code-challenge-kennedy
+# Code Challenge Submission
+
+## Author
+
+**Howard Kennedy** 
