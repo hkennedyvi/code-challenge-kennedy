@@ -46,5 +46,60 @@ body {
   margin: 5px 0;
 }
 
+.card {
+  line-height: 2em;
+  padding: 0 40px;
+  font-size: 12px;
+}
+
+.card h2 {
+  margin: 20px auto 50px auto;
+  padding: 0 0 10px 0;
+  font-family: 'Playfair Display', sans-serif;
+  font-weight: 700;
+  color: #611818;
+}
+
+#underline {
+  margin: -75px 0 0 0;
+}
+
+.close-btn {
+  color: #611818 !important;
+  font-size: 25px !important;
+  margin: -15px -50px !important;
+}
+
+.close-btn:hover {
+  background-color: transparent !important;
+}
+
+.read-btn {
+  font-family: Arial, sans-serif;
+  font-weight: 10;
+  font-size: 20px !important;
+  background-image: linear-gradient(to right, #611818, #682121, #6e2a29, #753332, #7b3c3b, #804342, #864949, #8b5050, #915757, #975e5e, #9c6565, #a26c6c);
+  color: white !important; 
+  padding: 10px 80px !important;
+  border-radius: 0 !important;
+  margin: 40px 0;
+}
+
+.content {
+  position: absolute;
+  margin-top: 400px;
+  margin-left: 500px;
+  transform: translate(-50%, -50%) scale(0);
+  min-width: 600px;
+  width: 40%;
+  z-index: 1;
+}
+
+.popup-card.active .content {
+  transition: all 500ms ease-in-out;
+  transform: translate(-50%, -50%) scale(1);
+
+}
+
 @import "node_modules/bootstrap/scss/bootstrap";
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;900&display=swap');
