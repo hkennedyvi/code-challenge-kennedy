@@ -102,6 +102,12 @@ body {
           transform: translate(-50%, -50%) scale(1);
 }
 
+#main-header {
+  opacity: 1;
+  -webkit-transition: 1s opacity;
+  transition: 1s opacity;
+}
+
 /*!
  * Bootstrap v4.5.0 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors

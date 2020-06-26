@@ -98,7 +98,11 @@ body {
 .popup-card.active .content {
   transition: all 500ms ease-in-out;
   transform: translate(-50%, -50%) scale(1);
+}
 
+#main-header {
+  opacity: 1;
+  transition: 1s opacity;
 }
 
 @import "node_modules/bootstrap/scss/bootstrap";
