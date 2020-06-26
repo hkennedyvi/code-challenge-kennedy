@@ -4,7 +4,7 @@ Landing Page and Animated Popup modeled after template.
 
 ## Preview 
 
-<img src="assets/landing_page.png" width="400"  alt="landing page" />
+<img src="assets/landing_page.png" width="800"  alt="landing page" />
 
 ## Built With
 
